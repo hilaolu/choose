@@ -499,7 +499,7 @@ static CaseSpecification SearchCase;
     [self addShortcut:@"c" mods:NSControlKeyMask handler:^{ [_self cancel]; }];
     [self addShortcut:@"g" mods:NSControlKeyMask handler:^{ [_self cancel]; }];
     // Vim-style navigation: Ctrl+j (down), Ctrl+k (up)
-    [self addShortcut:@"j" mods:NSControlKeyMask handler:^{ [_self moveSelectionDown]; }];
+    [self addShortcut:@"l" mods:NSControlKeyMask handler:^{ [_self moveSelectionDown]; }];
     [self addShortcut:@"k" mods:NSControlKeyMask handler:^{ [_self moveSelectionUp]; }];
 }
 
